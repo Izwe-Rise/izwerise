@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Izwe Rise - Student Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/x-icon" href="izwepictures/IZWE LOGO.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="Logo">
+    <img src="izwepictures/IZWE LOGO.png">
+  </div>
+    <h1>Izwe Rise – Student Portal</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#about">About</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Selection Card -->
+    <section class="card">
+      <h2>Find Exam Papers</h2>
+
+      <label for="gradeSelect">Grade</label>
+      <select id="gradeSelect">
+        <option value="8">Grade 8</option>
+        <option value="9">Grade 9</option>
+        <option value="10">Grade 10</option>
+        <option value="11">Grade 11</option>
+        <option value="12" selected>Grade 12</option>
+      </select>
+
+      <label for="subjectSelect">Subject</label>
+      <select id="subjectSelect">
+        <option value="math">Mathematics</option>
+        <option value="science">Science</option>
+        <option value="english">English</option>
+      </select>
+
+      <button id="fetchPapers" class="btn">Fetch Papers</button>
+    </section>
+
+    <!-- Papers Display Card -->
+    <section class="card">
+      <h2>Available Papers</h2>
+      <div id="papersList">
+        <p>Select a grade and subject to see available papers.</p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="card">
+      <h2>About Izwe Rise</h2>
+      <p>
+        Izwe Rise is a student-driven initiative designed to help learners 
+        access past exam papers, prepare better, and rise above academic challenges. 
+        The platform was founded to make quality resources accessible to every learner 
+        and empower the next generation of leaders.
+      </p>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="card">
+      <h2>Blog</h2>
+      <h2>Rise Beyond Limits: A Call from Izwe Rise</h2>
+      <p>Every generation is faced with a choice: to accept things as they are, or to rise and create something better. At Izwe Rise, we believe that greatness doesn’t come from waiting, it comes from standing up, taking ownership, and daring to dream bigger than the challenges in front of us.
+
+Rising isn’t always easy. Sometimes it means fighting battles nobody else sees. Sometimes it means getting up one more time when life has knocked you down. But every rise, no matter how small, builds strength, courage, and hope not only for you, but for the people around you.
+
+When you rise, you inspire.
+When you rise, you create change.
+When you rise, the nation rises with you.
+
+Izwe Rise is more than just a name, it’s a movement. It’s a reminder that we carry the power to uplift ourselves, our families, our communities, and ultimately, our country. One act of bravery, one bold idea, one determined step forward can shift the future.
+
+So today, choose to rise.
+Rise above doubt.
+Rise above fear.
+Rise into your potential.
+
+Because when one rises, we all rise. And the story of our land, our izwe, becomes one of strength, resilience, and unstoppable progress.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>For inquiries, reach us at: <a href="mailto:info@izwerise.com">mbongisenimpumelelo@icloud.com</a></p>
+    </section>
+
+    
+  </main>
+
+  <footer>
+    <p>© 2025 Izwe Rise. All Rights Reserved. Designed by Mpumelelo Hlongwane</p>
+  </footer>
+
+  <script src="student.js"></script>
+</body>
+</html>

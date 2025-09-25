@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Izwe Rise - Admin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/x-icon" href="izwepictures/IZWE LOGO.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Password Login Card -->
+  <div id="loginCard" class="card login-card">
+    <h2>Admin Login</h2>
+    <p>Enter your password to access the admin panel.</p>
+    <input type="password" id="adminPassword" placeholder="Enter password">
+    <button id="loginBtn" class="btn">Login</button>
+    <p id="loginError" style="color:red; display:none; margin-top:10px;">Incorrect password. Try again.</p>
+  </div>
+
+  <!-- Admin Panel (Hidden until login) -->
+  
+     <div class="Logo">
+    <img src="izwepictures/TRU LOGO 1 (2).png">
+  </div>
+  
+  <main id="adminPanel" style="display:none;">
+    <header>
+      <h1>Izwe Rise – Admin Panel</h1>
+      <nav>
+        <a href="index.html">⬅ Back to Student Portal</a>
+      </nav>
+    </header>
+
+    <section class="card">
+      <h2>Upload Exam Paper</h2>
+      <form id="uploadForm">
+        <label for="paperTitle">Paper Title</label>
+        <input type="text" id="paperTitle" placeholder="June 2024 Math Paper" required>
+
+        <label for="gradeSelect">Grade</label>
+        <select id="gradeSelect" required>
+          <option value="8">Grade 8</option>
+          <option value="9">Grade 9</option>
+          <option value="10">Grade 10</option>
+          <option value="11">Grade 11</option>
+          <option value="12">Grade 12</option>
+        </select>
+
+        <label for="subjectSelect">Subject</label>
+        <select id="subjectSelect" required>
+          <option value="math">Mathematics</option>
+          <option value="science">Science</option>
+          <option value="english">English</option>
+        </select>
+
+        <label for="paperFile">Upload PDF</label>
+        <input type="file" id="paperFile" accept="application/pdf" required>
+
+        <button type="submit" class="btn">Upload</button>
+      </form>
+    </section>
+
+    <!-- Uploaded Papers List -->
+    <section class="card">
+      <h2>Uploaded Papers</h2>
+      <div id="uploadedPapers">
+        <p>No papers uploaded yet.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Izwe Rise. Admin Panel. Designed by Mpumelelo Hlongwane
+
+      </p>
+    </footer>
+  </main>
+
+  <script src="admin.js"></script>
+</body>
+</html>

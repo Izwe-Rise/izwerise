@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Izwe Rise – Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <header>
+    <h1>Izwe Rise – Practice Quiz</h1>
+    <nav>
+      <a href="student.html">⬅ Back to Student Portal</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card" id="quizCard">
+      <div id="quizContainer" style="display:block;">
+        <div class="timer">Time left: <span id="timer">00:00</span></div>
+        <h2 id="quizTitle"></h2>
+        <p id="questionText"></p>
+        <ul id="optionsList"></ul>
+        <div class="navigation">
+          <button id="prevBtn" class="btn">Previous</button>
+          <button id="nextBtn" class="btn">Next</button>
+        </div>
+        <p id="scoreText" style="margin-top:15px;"></p>
+        <div class="progress-container">
+          <div class="progress-bar" id="progressBar"></div>
+        </div>
+      </section>
+  </main>
+
+  <script src="quiz.js"></script>
+</body>
+</html>

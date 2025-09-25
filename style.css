@@ -1,0 +1,224 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Montserrat";
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(izwepictures/TRU\ Port.jpeg);
+  
+}
+
+/* Header */
+header {
+  background: #1a237e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 10px 0;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Logo Placeholder */
+.logo-placeholder {
+  background: white;
+  color: #1a237e;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 700px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  color: #1a237e;
+}
+
+/* Form Controls */
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+select, .btn {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.btn {
+  background: #1a237e;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #0d1550;
+}
+
+/* Footer */
+footer {
+  background: #1a237e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto;
+}
+
+/* Input & File Upload */
+input[type="text"],
+input[type="file"],
+select {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Upload Section Button */
+button, .btn {
+  background: #1a237e;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover {
+  background: #0d1550;
+}
+
+/* Login Card */
+.login-card {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background: white;
+}
+
+.login-card input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #1a237e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+label, select {
+  display: block;
+  margin: 10px 0;
+}
+
+button, .btn {
+  background: #1a237e;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover, .btn:hover {
+  background: #0d1550;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #f0f0f0;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+ul li a.btn {
+  margin-left: 10px;
+}
+
+.Logo img{
+  width: 100%;
+  max-width: 250px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 200px;
+
+}
